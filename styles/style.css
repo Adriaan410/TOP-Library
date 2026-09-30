@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+ background-color: #F7F7F2;
+ height: 100vh;
+ width: 100%;
+}
+
+.heading{
+    color: #F05D23;
+}
+#add_book_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    text-align: center;
+    gap: 1rem;
+}
+
+#add_book_form input, .submit_btn{
+    border-radius: 50px;
+    height: 2rem;
+    border: 1px solid #F05D23;
+    text-align: center;
+    background-color: #F7F7F2;
+}
+
+.submit_btn{
+    width: 6rem;
+}
+
+#add_book_dialog{
+    border: 1px solid saddlebrown;
+    margin: 0 auto;
+    padding: 0.75rem 0.75rem;
+    background-color: #E4E6C3;
+    border-radius: 1.25rem;
+}
+#library{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.book_card{
+    border: 1px solid black;
+    width: 10rem;
+    margin: 2rem 1rem;
+    padding: 0.25rem 0.25rem;
+    border-radius: 0.75rem;
+    overflow-wrap: break-word;
+}
+.delete_btn{
+    width: 2rem;
+    height: 2rem;
+    background-color: #F05D23;
+    font-weight: bold;
+    color: red;
+    background-color: azure;
+    border: 1px solid red;
+    border-radius: 1.25rem;
+}
